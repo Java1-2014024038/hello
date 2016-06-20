@@ -93,7 +93,7 @@ public class cc extends JFrame implements ActionListener {
 	      else if (operator.equals("sqrt"))
 	         result = Math.sqrt(n);
 	      else if (operator.equals("1/x"))
-	         result = n/1;
+	         result = 1/n;
 	      else if (operator.equals("%"))
 	         result = (int) result % n;
 	      else if (operator.equals("-/+"))
